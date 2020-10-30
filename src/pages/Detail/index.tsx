@@ -38,7 +38,7 @@ function Detail() {
             "course": "Medicina",
             "name": "João Gabriel",
             "avatar": "https://mcusercontent.com/bc934d067a92cc650b4ec728f/images/a5aa0ab7-d7ea-432d-8d77-6c3858debc81.jpg",
-            "whatsapp": "86994940808",
+            "whatsapp": "86998291232",
             "bio": "Professora de Física, Matemática e Química. Gosto de ajudar alunos a alcançarem boas notas"
           },
           {
@@ -50,7 +50,7 @@ function Detail() {
             "course": "Medicina",
             "name": "Francisco Gabriel",
             "avatar": "https://mcusercontent.com/bc934d067a92cc650b4ec728f/images/cc557df7-6686-4f24-9bf1-bc6a2381f187.jpg",
-            "whatsapp": "86994940808",
+            "whatsapp": "86998342230",
             "bio": "Professora de Física, Matemática e Química. Gosto de ajudar alunos a alcançarem boas notas"
           },
           {
@@ -62,7 +62,7 @@ function Detail() {
             "course": "Medicina",
             "name": "Gabriel Soares",
             "avatar": "https://mcusercontent.com/bc934d067a92cc650b4ec728f/images/73df8814-14e5-4330-ade6-80b76faeaf72.jpg",
-            "whatsapp": "86994940808",
+            "whatsapp": "86994390202",
             "bio": "Professora de Física, Matemática e Química. Gosto de ajudar alunos a alcançarem boas notas"
           },
         {
