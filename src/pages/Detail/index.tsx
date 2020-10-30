@@ -2,15 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import backIcon from '../../assets/images/back.png';
 
-import PageHeader from '../../components/PageHeader';
-
-import logoImg from '../../assets/images/logo.svg';
 import graduation from '../../assets/images/graduation.png';
-import joaoGabriel from '../../assets/images/joaoGabriel.jpg';
 import phone from '../../assets/images/phone-call.png';
 import whatsapp from '../../assets/images/whatsappNovo.png';
-
-import api from '../../services/api';
 
 import './styles.css';
 
