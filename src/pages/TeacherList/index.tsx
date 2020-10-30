@@ -107,7 +107,7 @@ function TeacherList() {
 
     return (
         <div id="page-teacher-list" className="container">
-            <PageHeader title="Estes são os proffys disponíveis." >
+            <PageHeader title="Os seus professores estão aqui!" >
                 <div id="search-teachers">
                 
                     <button onClick={() => {setSubject("Matemática")}}>
