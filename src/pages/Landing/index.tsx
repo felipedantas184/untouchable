@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
-import logoImg from '../../assets/images/frame.svg';
+import logoImg from '../../assets/images/MeuProf.svg';
 import landingImg from '../../assets/images/frameLanding.svg';
 
 import studyIcon from '../../assets/images/icons/study.svg';
