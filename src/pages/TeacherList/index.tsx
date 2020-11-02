@@ -74,7 +74,7 @@ function TeacherList() {
           "group": "Disponível",
           "course": "Medicina",
           "name": "Nicole Dantas",
-          "avatar": "https://twitter.com/nitasbae/photo",
+          "avatar": "https://pbs.twimg.com/profile_images/1308854505547718657/gLcV1CEn_400x400.jpg",
           "whatsapp": "86994940808",
           "bio": "Professora de Física, Matemática e Química. Gosto de ajudar alunos a alcançarem boas notas"
         },
