@@ -103,6 +103,7 @@
 
 .teacher-item footer button {
     width: 20rem;
+    margin-left: 5px;
     height: 5.6rem;
     background: var(--color-secundary);
     color: var(--color-button-text);
