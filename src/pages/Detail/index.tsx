@@ -71,7 +71,7 @@ function Detail() {
           "cost": "60",
           "online": "Disponível",
           "group": "Disponível",
-          "course": "Medicina",
+          "course": "Odontologia",
           "name": "Nicole Dantas",
           "avatar": "https://pbs.twimg.com/profile_images/1308854505547718657/gLcV1CEn_400x400.jpg",
           "whatsapp": "86994940808",
