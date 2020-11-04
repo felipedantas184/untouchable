@@ -42,11 +42,6 @@ function Landing() {
                         <img src={studyIcon} alt="Estudar" />
                         Estudar
                     </Link>
-
-                    <Link to="/give-classes" className="give-classes">
-                        <img src={giveClassesIcon} alt="Dar Aulas" />
-                        Dar Aulas
-                    </Link>
                 </div>
                 <span className="total-connections">
                     Mais de 10 professores cadatrados!
