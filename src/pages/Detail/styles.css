@@ -125,7 +125,7 @@
     }
     
     .contact-container a.whats:hover {
-        background: var(--color-primary);
+        background: var(--color-secundary-dark);
     }
     
     .contact-container a.phone:hover {
