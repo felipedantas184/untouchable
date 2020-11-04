@@ -62,7 +62,7 @@
 }
 
 .buttons-container a.study {
-    background: var(--color-primary-lighter);
+    background: var(--color-secundary);
 }
 
 .buttons-container a.give-classes {
