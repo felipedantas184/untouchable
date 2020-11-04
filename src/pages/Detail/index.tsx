@@ -157,7 +157,7 @@ function Detail() {
                             </div>
 
                             <section className="contact">
-                                <div className="buttons-container">
+                                <div className="contact-container">
                                     <a href={`https://api.whatsapp.com/send?phone=55${teacher.whatsapp}`}
                                     target="blank" className="whats">
                                         <img src={whatsapp} alt="Estudar" />
