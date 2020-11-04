@@ -86,13 +86,13 @@
         color: #000;
     }
 
-    .buttons-container {
+    .contact-container {
         display: flex;
         justify-content: center;
         margin: 3.2rem 0;
     }
     
-    .buttons-container a {
+    .contact-container a {
         width: 30rem;
         height: 10.4rem;
         border-radius: 20px;
@@ -108,31 +108,31 @@
         transition: background-color 0.2s;
     }
     
-    .buttons-container a:first-child {
+    .contact-container a:first-child {
         margin-right: 1.6rem;
     }
     
-    .buttons-container a img {
+    .contact-container a img {
         width: 4rem;
     }
     
-    .buttons-container a.whats {
+    .contact-container a.whats {
         background: var(--color-primary);
     }
     
-    .buttons-container a.phone {
+    .contact-container a.phone {
         background: var(--color-secundary);
     }
     
-    .buttons-container a.whats:hover {
+    .contact-container a.whats:hover {
         background: var(--color-primary);
     }
     
-    .buttons-container a.phone:hover {
+    .contact-container a.phone:hover {
         background: var(--color-secundary-dark);
     }
     
-    .buttons-container a img {
+    .contact-container a img {
         margin-right: 1.4rem;
         width: 35px;
     }
