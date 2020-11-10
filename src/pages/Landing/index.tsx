@@ -47,6 +47,31 @@ function Landing() {
                     Mais de 10 professores cadatrados!
                 </span>
             </div>
+            
+            <section className="secondary">
+                <strong>Destques</strong>
+                <div className="teacherList">
+                    {teachers
+                    .filter(teacher => teacher.id <= "4")
+                    .map((teacher) => {
+                        return (
+                            <div className="teacherItem" key={teacher.id}>
+                                <div style={{display: 'flex', flexDirection: 'row'}}>
+                                    <img src={teacher.avatar} style={{marginRight: 5, objectFit: 'cover'}}/>
+                                    <div style={{justifyContent: 'center', alignItems: 'center'}}>
+                                        <strong>{teacher.name}</strong>
+                                        <p>{teacher.subject}</p>
+                                    </div>
+                                </div>
+                                <Link to="/give-classes" >
+                                    Dar Aulas
+                                </Link>
+                            </div>
+                        )
+                    })}
+                    
+                </div>
+            </section>
         </div>
     )
 }
