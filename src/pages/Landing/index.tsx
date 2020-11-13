@@ -197,7 +197,7 @@ function Landing() {
                             </div>
                         </div>
 
-                        <div className="buttons-container" style={{width: 240, heigth: 65}}>
+                        <div className="buttons-container" style={{width: 240, height: 65}}>
                             <Link to="/study" className="study">
                                 Encontrar meu prof!
                             </Link>
