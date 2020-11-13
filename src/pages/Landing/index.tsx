@@ -160,6 +160,43 @@ function Landing() {
                     
                 </div>
             </section>
+            
+            <section className="perks">
+                <div className="perksContainer">
+                    <div className="perksList">
+                        <div className="perksItem">
+                            <img src={studyIcon} />
+                            <h2>Todos em um só lugar</h2>
+                            <div>
+                                <p>Reunimos os melhores professores numa mesma plataforma!</p>
+                                <p><a href="/br/shop/goto/shipping_and_returns" data-analytics-title="learn more about free delivery" aria-label="Saiba mais sobre o frete grátis." ><span>Saiba mais</span><span ></span></a></p>
+                            </div>
+                        </div>
+                        <div className="perksItem">
+                            <img src={studyIcon} />
+                            <h2>Praticidade para Marcar</h2>
+                            <div>
+                                <p>Economize tempo e marque sua aula particular em minutos.</p>
+                                <p><a href="/br/shop/goto/ww/financing" data-analytics-title="learn more about financing" aria-label="Saiba mais sobre o opções de pagamento" ><span>Saiba mais</span><span ></span></a></p>
+                            </div>
+                        </div>
+                        <div className="perksItem">
+                            <img src={studyIcon} />
+                            <h2>Várias Matérias Disponíveis</h2>
+                            <div>
+                                <p>De Química a aulas de violão! Você encontra tudo aqui.</p>
+                                <p><a href="/br/shop/goto/personal_session" data-analytics-title="learn more about online personal sessions" aria-label="Saiba mais sobre as sessões personalizadas online"><span>Saiba mais</span><span></span></a></p>
+                            </div>
+                        </div>
+
+                        <div className="buttons-container">
+                            <Link to="/study" className="study">
+                                Encontrar meu prof!
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
     )
 }
