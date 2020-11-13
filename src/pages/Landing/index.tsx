@@ -176,7 +176,7 @@ function Landing() {
                 <div className="perksContainer">
                     <div className="perksList">
                         <div className="perksItem">
-                            <img src={network} style={{width: 70px, marginBottom: 15}}/>
+                            <img src={network} style={{width: 70, marginBottom: 15}}/>
                             <h2>Todos em um só lugar</h2>
                             <div>
                                 <p>Reunimos os melhores professores numa mesma plataforma!</p>
@@ -184,7 +184,7 @@ function Landing() {
                             </div>
                         </div>
                         <div className="perksItem">
-                            <img src={click} style={{width: 70px, marginBottom: 15}}/>
+                            <img src={click} style={{width: 70, marginBottom: 15}}/>
                             <h2>Praticidade para Marcar</h2>
                             <div>
                                 <p>Economize tempo e marque sua aula particular em minutos.</p>
@@ -192,7 +192,7 @@ function Landing() {
                             </div>
                         </div>
                         <div className="perksItem">
-                            <img src={menu} style={{width: 60px, marginBottom: 15}}/>
+                            <img src={menu} style={{width: 60, marginBottom: 15}}/>
                             <h2>Várias Matérias Disponíveis</h2>
                             <div>
                                 <p>De Química a aulas de violão! Você encontra tudo aqui.</p>
