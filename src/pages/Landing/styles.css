@@ -1,6 +1,7 @@
 #page-landing {
     display: flex;
     flex-direction: column;
+    max-width: 100vw;
 }
 
 #page-landing-content {
@@ -22,7 +23,7 @@
 }
 
 .hero-image {
-    width: 100%;
+    width: 90%;
 }
 
 .logo-container {
