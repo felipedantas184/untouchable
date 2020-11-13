@@ -4,6 +4,10 @@ import { Link } from 'react-router-dom';
 import logoImg from '../../assets/images/MeuProf.svg';
 import landingImg from '../../assets/images/girlPc.png';
 
+import network from '../../assets/images/network.png';
+import click from '../../assets/images/click.png';
+import menu from '../../assets/images/menu.png';
+
 import studyIcon from '../../assets/images/icons/study.svg';
 import giveClassesIcon from '../../assets/images/icons/give-classes.svg';
 import purpleHearIcon from '../../assets/images/icons/purple-heart.svg';
@@ -172,7 +176,7 @@ function Landing() {
                 <div className="perksContainer">
                     <div className="perksList">
                         <div className="perksItem">
-                            <img src={studyIcon} />
+                            <img src={network} />
                             <h2>Todos em um só lugar</h2>
                             <div>
                                 <p>Reunimos os melhores professores numa mesma plataforma!</p>
@@ -180,7 +184,7 @@ function Landing() {
                             </div>
                         </div>
                         <div className="perksItem">
-                            <img src={studyIcon} />
+                            <img src={click} />
                             <h2>Praticidade para Marcar</h2>
                             <div>
                                 <p>Economize tempo e marque sua aula particular em minutos.</p>
@@ -188,7 +192,7 @@ function Landing() {
                             </div>
                         </div>
                         <div className="perksItem">
-                            <img src={studyIcon} />
+                            <img src={menu} />
                             <h2>Várias Matérias Disponíveis</h2>
                             <div>
                                 <p>De Química a aulas de violão! Você encontra tudo aqui.</p>
