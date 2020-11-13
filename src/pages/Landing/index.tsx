@@ -152,12 +152,19 @@ function Landing() {
                                     </div>
                                 </div>
                                 <Link to="/give-classes" >
-                                    Dar Aulas
+                                    Detalhes
                                 </Link>
                             </div>
                         )
                     })}
                     
+                </div>
+                
+                <div className="buttons-container">
+                    <Link to="/study" className="study">
+                        <img src={studyIcon} alt="Estudar" />
+                        Marcar Aula
+                    </Link>
                 </div>
             </section>
             
