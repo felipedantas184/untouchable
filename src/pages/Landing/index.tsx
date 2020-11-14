@@ -167,7 +167,7 @@ function Landing() {
                 </div>
                 
                 <div className="buttons-container">
-                    <Link to="/study" className="study">
+                    <Link to="/study" className="study" style={{width: 240, height: 70}}>
                         <img src={studyIcon} alt="Estudar" />
                         Marcar Aula
                     </Link>
@@ -201,7 +201,7 @@ function Landing() {
                         </div>
 
                         <div className="buttons-container">
-                            <Link to="/study" className="study"  style={{width: 240, height: 65}}>
+                            <Link to="/study" className="study"  style={{width: 240, height: 70, backgroundColor: '#00b0cb'}}>
                                 Encontrar meu prof!
                             </Link>
                         </div>
