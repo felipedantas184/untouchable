@@ -79,7 +79,7 @@
 }
 
 .buttons-container a.study:hover {
-    background: var(--color-secundary-light);
+    background: var(--color-secundary-dark);
 }
 
 .buttons-container a.give-classes:hover {
