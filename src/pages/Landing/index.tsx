@@ -205,6 +205,31 @@ function Landing() {
                     </div>
                 </div>
             </section>
+            
+            <footer>
+                <div className="footer-content">
+                    <h2 className="logoFooter">MeuProf</h2>
+                    <div className="footerItem">
+                        <strong>Redes Sociais</strong>
+                        <div className="footerGroup">
+                            <img src={studyIcon} style={{width: 30, marginRight: 5}} />
+                            <a>@meu.prof</a>
+                        </div>
+
+                        <div className="footerGroup">
+                            <img src={studyIcon} style={{width: 30, marginRight: 5}} />
+                            <a>MeuProf</a>
+                        </div>
+                    </div>
+
+                    <div className="footerItem">
+                        <strong>Contato</strong>
+                        <div className="footerGroup">
+                            <a>Mande um e-mail</a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
         </div>
     )
 }
