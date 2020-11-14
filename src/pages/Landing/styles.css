@@ -207,7 +207,7 @@
 }
 
 .become strong {
-    font: 400 2.0rem Righteous;
+    font: 400 2.5rem Righteous;
     color: #13131a;
 }
 
@@ -226,6 +226,14 @@
     margin-bottom: 4rem;
     margin-top: 30px;
     text-align: center;
+}
+
+.becomeItem h2 {
+    color: #13131a
+}
+
+.becomeItem p {
+    color: #34343a
 }
 
 .footer-content {
