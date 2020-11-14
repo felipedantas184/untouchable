@@ -218,6 +218,28 @@ function Landing() {
                 </div>
             </section>
             
+            <section className="become">
+                <div className="becomeContainer">
+                    <strong>Quer Ser um Prof Parceiro?</strong>
+                    <div className="becomeList">
+                        <div className="becomeItem">
+                            <img src={studyIcon} />
+                            <h2>Ganhe alcance</h2>
+                            <div>
+                                <p>Aumente sua visibilidade e conquiste mais alunos!</p>
+                                <p><a href="/br/shop/goto/shipping_and_returns" data-analytics-title="learn more about free delivery" aria-label="Saiba mais sobre o frete grátis." ><span>Saiba mais</span><span ></span></a></p>
+                            </div>
+                        </div>
+
+                        <div className="buttons-container">
+                            <Link to="/study" className="study" style={{width: 240, height: 70}}>
+                                Quero ser um prof!
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
             <footer>
                 <div className="footer-content">
                     <h2 className="logoFooter">MeuProf</h2>
