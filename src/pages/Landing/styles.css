@@ -110,7 +110,7 @@
 }
 
 .secondary strong {
-    font: 400 2.0rem Righteous;
+    font: 400 2.5rem Righteous;
     color: #13131a;
     margin-bottom: 30px;
 }
@@ -148,6 +148,18 @@
     font: 400 1.7rem Poppins;
     margin-left: 15px;
     color: #34343a;
+}
+
+.secondary .teacherList .teacherItem .goToDeatils{
+    background: var(--color-primary);
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.secondary .teacherList .teacherItem a {
+    font: 500 1.5rem Poppins;
+    color: #f0f0f0;
+    text-decoration: none;
 }
 
 .perks {
