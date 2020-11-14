@@ -196,6 +196,37 @@
     text-align: center;
     margin-top: 30px
 }
+
+.become {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2.4rem;
+}
+
+.become strong {
+    font: 400 2.0rem Righteous;
+    color: #13131a;
+}
+
+.becomeList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.becomeItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+    margin-top: 30px;
+    text-align: center;
+}
+
 .footer-content {
     display: flex;
     flex-direction: column;
