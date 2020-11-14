@@ -155,9 +155,11 @@ function Landing() {
                                         <p>{teacher.subject}</p>
                                     </div>
                                 </div>
-                                <Link to="/give-classes" >
-                                    Detalhes
-                                </Link>
+                                <div className="goToDeatils">
+                                    <Link to="/give-classes" >
+                                        Detalhes
+                                    </Link>
+                                </div>
                             </div>
                         )
                     })}
