@@ -176,6 +176,7 @@ function Landing() {
             
             <section className="perks">
                 <div className="perksContainer">
+                    <strong>Vantagens</strong>
                     <div className="perksList">
                         <div className="perksItem">
                             <img src={network} style={{width: 70, marginBottom: 15}}/>
