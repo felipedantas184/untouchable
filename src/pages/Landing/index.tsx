@@ -232,7 +232,6 @@ function Landing() {
                             <h2>Ganhe alcance</h2>
                             <div>
                                 <p>Aumente sua visibilidade e conquiste muito mais alunos!</p>
-                                <p><a href="/br/shop/goto/shipping_and_returns" data-analytics-title="learn more about free delivery" aria-label="Saiba mais sobre o frete grátis." ><span>Saiba mais</span><span ></span></a></p>
                             </div>
                         </div>
                         
@@ -241,7 +240,6 @@ function Landing() {
                             <h2>Renda extra</h2>
                             <div>
                                 <p>Garanta uma renda extra enquanto leva seu curso.</p>
-                                <p><a href="/br/shop/goto/shipping_and_returns" data-analytics-title="learn more about free delivery" aria-label="Saiba mais sobre o frete grátis." ><span>Saiba mais</span><span ></span></a></p>
                             </div>
                         </div>
 
