@@ -8,6 +8,10 @@ import network from '../../assets/images/network.png';
 import click from '../../assets/images/click.png';
 import menu from '../../assets/images/menu.png';
 
+import instagram from '../../assets/images/instagram.png';
+import facebook from '../../assets/images/facebook.png';
+import shuttle from '../../assets/images/shuttle.png';
+
 import studyIcon from '../../assets/images/icons/study.svg';
 import giveClassesIcon from '../../assets/images/icons/give-classes.svg';
 import purpleHearIcon from '../../assets/images/icons/purple-heart.svg';
@@ -220,13 +224,22 @@ function Landing() {
             
             <section className="become">
                 <div className="becomeContainer">
-                    <strong>Quer Ser um Prof Parceiro?</strong>
+                    <strong>Quer Ser Parceiro?</strong>
                     <div className="becomeList">
                         <div className="becomeItem">
-                            <img src={studyIcon} />
+                            <img src={shuttle} style={{width: 70, marginBottom: 15}}/>
                             <h2>Ganhe alcance</h2>
                             <div>
-                                <p>Aumente sua visibilidade e conquiste mais alunos!</p>
+                                <p>Aumente sua visibilidade e conquiste muito mais alunos!</p>
+                                <p><a href="/br/shop/goto/shipping_and_returns" data-analytics-title="learn more about free delivery" aria-label="Saiba mais sobre o frete grátis." ><span>Saiba mais</span><span ></span></a></p>
+                            </div>
+                        </div>
+                        
+                        <div className="becomeItem">
+                            <img src={shuttle} style={{width: 70, marginBottom: 15}}/>
+                            <h2>Renda extra</h2>
+                            <div>
+                                <p>Garanta uma renda extra enquanto leva seu curso.</p>
                                 <p><a href="/br/shop/goto/shipping_and_returns" data-analytics-title="learn more about free delivery" aria-label="Saiba mais sobre o frete grátis." ><span>Saiba mais</span><span ></span></a></p>
                             </div>
                         </div>
@@ -246,12 +259,12 @@ function Landing() {
                     <div className="footerItem">
                         <strong>Redes Sociais</strong>
                         <div className="footerGroup">
-                            <img src={studyIcon} style={{width: 30, marginRight: 5}} />
+                            <img src={instagram} style={{width: 30, marginRight: 5}} />
                             <a>@meu.prof</a>
                         </div>
 
                         <div className="footerGroup">
-                            <img src={studyIcon} style={{width: 30, marginRight: 5}} />
+                            <img src={facebook} style={{width: 30, marginRight: 5}} />
                             <a>MeuProf</a>
                         </div>
                     </div>
