@@ -156,10 +156,14 @@
     border-radius: 50px;
 }
 
-.secondary .teacherList .teacherItem a {
+.secondary .teacherList .teacherItem .goToDeatils button {
     font: 500 1.5rem Poppins;
     color: #f0f0f0;
     text-decoration: none;
+    background-color: transparent;
+    border: 0;
+    max-width: 60px;
+    max-height: 20px;
 }
 
 .perks {
