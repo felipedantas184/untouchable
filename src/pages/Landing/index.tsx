@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useHistory } from 'react-router-dom';
 
 import logoImg from '../../assets/images/MeuProf.svg';
 import landingImg from '../../assets/images/girlPc.png';
@@ -107,6 +107,13 @@ const teachers = [
 function Landing() {
     const [totalConnections, setTotalConnections] = useState(0);
 
+    const history = useHistory();
+
+    function handleDetails(id: string) {
+        localStorage.setItem('teacherId', id)
+        history.push('/detail')
+    }
+    
     useEffect(() => {
         api.get('connections').then(response => {
             const { total } = response.data;
@@ -156,9 +163,11 @@ function Landing() {
                                     </div>
                                 </div>
                                 <div className="goToDeatils">
-                                    <Link to="/give-classes" >
+                                    <button 
+                                        onClick={()=> handleDetails(teacher.id) }
+                                        >
                                         Detalhes
-                                    </Link>
+                                    </button>
                                 </div>
                             </div>
                         )
