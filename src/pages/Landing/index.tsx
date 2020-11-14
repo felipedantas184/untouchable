@@ -7,6 +7,7 @@ import landingImg from '../../assets/images/girlPc.png';
 import network from '../../assets/images/network.png';
 import click from '../../assets/images/click.png';
 import menu from '../../assets/images/menu.png';
+import dollar from '../../assets/images/dollar.png';
 
 import instagram from '../../assets/images/instagram.png';
 import facebook from '../../assets/images/facebook.png';
@@ -236,7 +237,7 @@ function Landing() {
                         </div>
                         
                         <div className="becomeItem">
-                            <img src={shuttle} style={{width: 70, marginBottom: 15}}/>
+                            <img src={dollar} style={{width: 70, marginBottom: 15}}/>
                             <h2>Renda extra</h2>
                             <div>
                                 <p>Garanta uma renda extra enquanto leva seu curso.</p>
@@ -259,12 +260,10 @@ function Landing() {
                     <div className="footerItem">
                         <strong>Redes Sociais</strong>
                         <div className="footerGroup">
-                            <img src={instagram} style={{width: 30, marginRight: 5}} />
                             <a>@meu.prof</a>
                         </div>
 
                         <div className="footerGroup">
-                            <img src={facebook} style={{width: 30, marginRight: 5}} />
                             <a>MeuProf</a>
                         </div>
                     </div>
