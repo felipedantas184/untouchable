@@ -28,7 +28,8 @@ function TeacherList() {
             "name": "Felipe Dantas",
             "avatar": "https://avatars0.githubusercontent.com/u/62896397?s=460&u=7f6eb283e67fddf77d5e43f2987cf9948bff7d55&v=4",
             "whatsapp": "86995185757",
-            "bio": "Professor de Física, Matemática e Química. Gosto de ajudar alunos a alcançarem boas notas"
+            "bio": "Professor de Física, Matemática e Química. Gosto de ajudar alunos a alcançarem boas notas",
+            "series": "7°-9°EF; 1°-2°EM" 
           },
           {
             "id": '2',
@@ -40,7 +41,8 @@ function TeacherList() {
             "name": "João Gabriel",
             "avatar": "https://mcusercontent.com/bc934d067a92cc650b4ec728f/images/a5aa0ab7-d7ea-432d-8d77-6c3858debc81.jpg",
             "whatsapp": "86998291232",
-            "bio": "Professor de Física, Matemática e Química. Gosto de ajudar alunos a alcançarem boas notas"
+            "bio": "Professor de Física, Matemática e Química. Gosto de ajudar alunos a alcançarem boas notas",
+            "series": "7°-9°EF; 1°-2°EM"
           },
           {
             "id": '3',
@@ -52,7 +54,8 @@ function TeacherList() {
             "name": "Francisco Gabriel",
             "avatar": "https://mcusercontent.com/bc934d067a92cc650b4ec728f/images/cc557df7-6686-4f24-9bf1-bc6a2381f187.jpg",
             "whatsapp": "86998342230",
-            "bio": "Professor de Física, Matemática e Química. Gosto de ajudar alunos a alcançarem boas notas"
+            "bio": "Professor de Física, Matemática e Química. Gosto de ajudar alunos a alcançarem boas notas",
+            "series": "7°-9°EF; 1°-2°EM"
           },
           {
             "id": '4',
@@ -64,7 +67,8 @@ function TeacherList() {
             "name": "Gabriel Soares",
             "avatar": "https://mcusercontent.com/bc934d067a92cc650b4ec728f/images/73df8814-14e5-4330-ade6-80b76faeaf72.jpg",
             "whatsapp": "86994390202",
-            "bio": "Professor de Física, Matemática e Química. Gosto de ajudar alunos a alcançarem boas notas"
+            "bio": "Professor de Física, Matemática e Química. Gosto de ajudar alunos a alcançarem boas notas",
+            "series": "7°-9°EF; 1°-2°EM"
           },
         {
           "id": '5',
@@ -76,7 +80,8 @@ function TeacherList() {
           "name": "Nicole Dantas",
           "avatar": "https://pbs.twimg.com/profile_images/1308854505547718657/gLcV1CEn_400x400.jpg",
           "whatsapp": "86994940808",
-          "bio": "Professora de Física, Matemática e Química. Gosto de ajudar alunos a alcançarem boas notas"
+          "bio": "Professora de Física, Matemática e Química. Gosto de ajudar alunos a alcançarem boas notas",
+          "series": "7°-9°EF; 1°-2°EM"
         },
         {
             "id": '6',
@@ -88,7 +93,8 @@ function TeacherList() {
             "name": "Pam Beesly",
             "avatar": "https://i.insider.com/5aeb5fa742e1cc19da46a727?width=1100&format=jpeg&auto=webp",
             "whatsapp": "86994940808",
-            "bio": "Professora de Física, Matemática e Química. Gosto de ajudar alunos a alcançarem boas notas"
+            "bio": "Professora de Física, Matemática e Química. Gosto de ajudar alunos a alcançarem boas notas",
+            "series": "7°-9°EF; 1°-2°EM"
         },
         {
             "id": '7',
@@ -100,7 +106,8 @@ function TeacherList() {
             "name": "Michael Scott",
             "avatar": "https://upload.wikimedia.org/wikipedia/en/d/dc/MichaelScott.png",
             "whatsapp": "86994940808",
-            "bio": "Professor de Física, Matemática e Química. Gosto de ajudar alunos a alcançarem boas notas"
+            "bio": "Professor de Física, Matemática e Química. Gosto de ajudar alunos a alcançarem boas notas",
+            "series": "7°-9°EF; 1°-2°EM"
         },
       ]
       
@@ -178,8 +185,8 @@ function TeacherList() {
                                 </div>
 
                                 <div style={{width: '48%', justifySelf: 'flex-end'}}>
-                                    <strong>Aulas Online:</strong>
-                                    <p>{teacher.online}</p>
+                                    <strong>Séries:</strong>
+                                    <p>{teacher.series}</p>
                                 </div>
                             </div>
 
