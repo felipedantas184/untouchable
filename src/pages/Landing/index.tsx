@@ -251,16 +251,16 @@ function Landing() {
                         </div>
 
                         <div className="buttons-container">
-                            <Link to="/study" className="study" style={{width: 240, height: 70}}>
+                            <a href="#planos" className="study" style={{width: 240, height: 70}}>
                                 Quero ser um prof!
-                            </Link>
+                            </a>
                         </div>
                     </div>
                 </div>
             </section>
 
             <section className="perks" style={{backgroundColor: '#F0F0F7'}}>
-                <div className="perksContainer">
+                <div className="perksContainer" id="planos">
                     <strong>Planos</strong>
                     <div className="perksList">
                         <div className="perksItem" style={{width: '90%', backgroundColor: '#FFF', borderRadius: 20, paddingTop: 20, paddingBottom: 20, paddingRight: 20, paddingLeft: 20, color: '#000'}}>
