@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import backIcon from '../../assets/images/back.png';
-import graduation from '../../assets/images/graduation.png';
+import backIcon from '../../assets/images/left-arrow.png';
+import graduation from '../../assets/images/meuprofgraduate.svg';
 
 import './styles.css';
 
