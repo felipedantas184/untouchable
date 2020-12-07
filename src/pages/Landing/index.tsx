@@ -9,6 +9,10 @@ import click from '../../assets/images/click.png';
 import menu from '../../assets/images/menu.png';
 import dollar from '../../assets/images/dollar.png';
 import security from '../../assets/images/security.png';
+import down from '../../assets/images/down-arrow.png';
+import book from '../../assets/images/book.png';
+import start from '../../assets/images/start.png';
+import scientist from '../../assets/images/scientist.png';
 
 import instagram from '../../assets/images/instagram.png';
 import facebook from '../../assets/images/facebook.png';
@@ -225,6 +229,84 @@ function Landing() {
             </section>
 
             <section className="perks" style={{backgroundColor: '#FFF'}}>
+                <div className="perksContainer" style={{width: '90vw'}}>
+                    <strong>Escolha a Matéria</strong>
+                    <div className="perksList">
+                        <div className="perksItem" style={{flexDirection: 'row', width: '90vw', justifyContent: 'space-around', margin: 0, marginTop: 20, height: 90}}>
+                            <div className="buttons-container" style={{width: '48%'}}>
+                                <Link to="/study" className="study"  style={{width: 240, height: 70, backgroundColor: '#00b0cb'}}>
+                                    Física
+                                </Link>
+                            </div>
+
+                            <div className="buttons-container" style={{width: '48%'}}>
+                                <Link to="/study" className="study"  style={{width: 240, height: 70, backgroundColor: '#00b0cb'}}>
+                                    Química
+                                </Link>
+                            </div>
+                        </div>
+
+                        <div className="perksItem" style={{flexDirection: 'row', width: '90vw', justifyContent: 'space-around', margin: 0, height: 90}}>
+                            <div className="buttons-container" style={{width: '48%'}}>
+                                <Link to="/study" className="study"  style={{width: 240, height: 70, backgroundColor: '#00b0cb'}}>
+                                    Inglês
+                                </Link>
+                            </div>
+
+                            <div className="buttons-container" style={{width: '48%'}}>
+                                <Link to="/study" className="study"  style={{width: 240, height: 70, backgroundColor: '#00b0cb'}}>
+                                    Francês
+                                </Link>
+                            </div>
+                        </div>
+
+                        <div className="perksItem" style={{flexDirection: 'row', width: '90vw', justifyContent: 'space-around', margin: 0, height: 90}}>
+                            <div className="buttons-container" style={{width: '48%'}}>
+                                <Link to="/study" className="study"  style={{width: 240, height: 70, backgroundColor: '#00b0cb'}}>
+                                    Finanças
+                                </Link>
+                            </div>
+
+                            <div className="buttons-container" style={{width: '48%'}}>
+                                <Link to="/study" className="study"  style={{width: 240, height: 70, backgroundColor: '#00b0cb'}}>
+                                    Violão
+                                </Link>
+                            </div>
+                        </div>
+
+                        <div className="buttons-container">
+                            <Link to="/study" className="study"  style={{width: 240, height: 70}}>
+                                Ver mais matérias!
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="perks">
+                <div className="perksContainer">
+                    <strong>Compartilhe suas Habilidades</strong>
+                    <div className="perksList">
+                        <div className="perksItem" style={{color: '#444'}}>
+                            <img src={book} style={{width: 70, marginBottom: 15}}/>
+                            <h2>Conhecimento Transforma</h2>
+                            <div>
+                                <p>Acreditamos que compartilhar habilidade constrói um mundo melhor e mais propenso a avanços!</p>
+                            </div>
+
+                            <div style={{marginTop: 50, color: "#333"}}>
+                                <strong style={{font: '500 2.0rem Poppins'}}>Descubra as vantagens de fazer parte da nossa equipe!</strong>
+                            </div>
+                        </div>
+
+                        <div className="buttons-container" style={{marginTop:0}}>
+                            <img src={down} style={{width: 64}}/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="perks" style={{backgroundColor: '#FFF'}}>
                 <div className="perksContainer">
                     <strong>Quer Ser Parceiro?</strong>
                     <div className="perksList">
@@ -264,7 +346,7 @@ function Landing() {
                     <strong>Planos</strong>
                     <div className="perksList">
                         <div className="perksItem" style={{width: '90%', backgroundColor: '#FFF', borderRadius: 20, paddingTop: 20, paddingBottom: 20, paddingRight: 20, paddingLeft: 20, color: '#000'}}>
-                            <img src={shuttle} style={{width: 70, marginBottom: 15}}/>
+                            <img src={start} style={{width: 70, marginBottom: 15}}/>
                             <h2>Plano Iniciante</h2>
                             <div style={{marginTop: 5, fontSize: 16.5}}>
                                 <p>Número <b>ilimitado</b> de alunos</p>
@@ -282,7 +364,7 @@ function Landing() {
                             </div>
                         </div>
                         <div className="perksItem" style={{width: '90%', backgroundColor: '#FFF', borderRadius: 20, paddingTop: 20, paddingBottom: 20, paddingRight: 20, paddingLeft: 20,color: '#000'}}>
-                            <img src={dollar} style={{width: 70, marginBottom: 15}}/>
+                            <img src={scientist} style={{width: 70, marginBottom: 15}}/>
                             <h2>Plano Pro</h2>
                             <div style={{marginTop: 5, fontSize: 16.5}}>
                                 <p>Número <b>ilimitado</b> de alunos</p>
