@@ -8,6 +8,7 @@ import network from '../../assets/images/network.png';
 import click from '../../assets/images/click.png';
 import menu from '../../assets/images/menu.png';
 import dollar from '../../assets/images/dollar.png';
+import security from '../../assets/images/security.png';
 
 import instagram from '../../assets/images/instagram.png';
 import facebook from '../../assets/images/facebook.png';
@@ -222,24 +223,30 @@ function Landing() {
                     </div>
                 </div>
             </section>
-            
-            <section className="become">
-                <div className="becomeContainer">
+
+            <section className="perks" style={{backgroundColor: '#FFF'}}>
+                <div className="perksContainer">
                     <strong>Quer Ser Parceiro?</strong>
-                    <div className="becomeList">
-                        <div className="becomeItem">
+                    <div className="perksList">
+                        <div className="perksItem">
                             <img src={shuttle} style={{width: 70, marginBottom: 15}}/>
                             <h2>Ganhe alcance</h2>
                             <div>
                                 <p>Aumente sua visibilidade e conquiste muito mais alunos!</p>
                             </div>
                         </div>
-                        
-                        <div className="becomeItem">
+                        <div className="perksItem">
                             <img src={dollar} style={{width: 70, marginBottom: 15}}/>
                             <h2>Renda extra</h2>
                             <div>
                                 <p>Garanta uma renda extra enquanto leva seu curso.</p>
+                            </div>
+                        </div>
+                        <div className="perksItem">
+                            <img src={security} style={{width: 60, marginBottom: 15}}/>
+                            <h2>Credibilidade</h2>
+                            <div>
+                                <p>Dê uma cara mais profissional ao seu perfil e encontre mais alunos!</p>
                             </div>
                         </div>
 
@@ -251,6 +258,53 @@ function Landing() {
                     </div>
                 </div>
             </section>
+
+            <section className="perks" style={{backgroundColor: '#F0F0F7'}}>
+                <div className="perksContainer">
+                    <strong>Planos</strong>
+                    <div className="perksList">
+                        <div className="perksItem" style={{width: '90%', backgroundColor: '#FFF', borderRadius: 20, paddingTop: 20, paddingBottom: 20, paddingRight: 20, paddingLeft: 20, color: '#000'}}>
+                            <img src={shuttle} style={{width: 70, marginBottom: 15}}/>
+                            <h2>Plano Iniciante</h2>
+                            <div style={{marginTop: 5, fontSize: 16.5}}>
+                                <p>Número <b>ilimitado</b> de alunos</p>
+                                <p>Cadastre até <b>duas matérias</b></p>
+
+                            </div>
+
+                            <strong style={{textDecoration: 'line-through', fontSize: 26, marginBottom: -5, color: '#00b0cb'}}>R$ 9,90/mês</strong>
+                            <strong style={{}}>R$ 6,90/mês</strong>
+
+                            <div className="buttons-container" style={{width: 240, marginBottom: 0}}>
+                                <Link to="/study" className="study" style={{width: 240, height: 70, backgroundColor: '#00b0cb'}}>
+                                    Quero ser um prof!
+                                </Link>
+                            </div>
+                        </div>
+                        <div className="perksItem" style={{width: '90%', backgroundColor: '#FFF', borderRadius: 20, paddingTop: 20, paddingBottom: 20, paddingRight: 20, paddingLeft: 20,color: '#000'}}>
+                            <img src={dollar} style={{width: 70, marginBottom: 15}}/>
+                            <h2>Plano Pro</h2>
+                            <div style={{marginTop: 5, fontSize: 16.5}}>
+                                <p>Número <b>ilimitado</b> de alunos</p>
+                                <p>Cadastre até <b>cinco matérias</b></p>
+                                <p><b>Dibulgação</b> pelo MeuProf</p>
+                            </div>
+
+                            <strong style={{textDecoration: 'line-through', fontSize: 26,marginBottom: -5 ,color: '#FC766A'}}>R$ 14,90/mês</strong>
+                            <strong style={{}}>R$ 9,90/mês</strong>
+
+                            <div className="buttons-container" style={{width: 240, marginBottom: 0}}>
+                                <Link to="/study" className="study" style={{width: 240, height: 70}}>
+                                    Quero ser um prof!
+                                </Link>
+                            </div>
+                        </div>
+
+                        <div className="buttons-container" style={{height: 0, margin: 0}}>
+                        </div>
+                    </div>
+                </div>
+            </section>
             
             <footer>
                 <div className="footer-content">
@@ -258,7 +312,7 @@ function Landing() {
                     <div className="footerItem">
                         <strong>Redes Sociais</strong>
                         <div className="footerGroup">
-                            <a>@meu.prof</a>
+                            <a style={{textDecoration: 'none'}} href="https://www.instagram.com/meu.prof/">@meu.prof</a>
                         </div>
 
                         <div className="footerGroup">
@@ -279,3 +333,4 @@ function Landing() {
 }
 
 export default Landing;
+
